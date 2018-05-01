@@ -5,7 +5,7 @@
         <title>TOBA - Admin Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
     </head>
     
     <body>
@@ -15,10 +15,11 @@
         </div>
         
         <div id="nav">
-            <a href="index.html">Home</a>&emsp;|&emsp;
-            <a href="login.html">LogIn</a>&emsp;|&emsp;
-            <a href="index.html">Services</a>&emsp;|&emsp;
-            <a href="index.html">Contact</a>&emsp;
+            <a href="index.jsp">Home</a>&emsp;|&emsp;
+            <a href="login.jsp">Log In</a>&emsp;|&emsp;
+            <a href="new_customer.jsp">Register</a>&emsp;|&emsp;
+            <a href="account_activity.jsp">Account Activity</a>&emsp;|&emsp;
+            <a href="admin">Admin</a>&emsp;
         </div>
         
         <div id="content">
@@ -28,7 +29,7 @@
                 <form method="get" action="j_security_check">
             
                 <p><label>User Name:</label><input type="text" name="j_username">
-                <p><label>Password:</label><input type="text" name="j_password">
+                <p><label>Password:</label><input type="password" name="j_password">
                 <p><input type="submit" value="Log in" class="button">
             
                 </form>
